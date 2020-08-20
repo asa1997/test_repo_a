@@ -1,2 +1,2 @@
-test_repo_a/a1
-test_repo_a/a2
+test_repo_a/a1,0.0.1
+test_repo_a/a2,0.0.1
