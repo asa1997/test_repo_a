@@ -1,2 +1,2 @@
-asa1997/a1,0.0.1
-asa1997/a2,0.0.1
+asa1997/test_repo_a/a1,0.0.1
+asa1997/test_repo_a/a2,0.0.1
