@@ -2,3 +2,5 @@ asa1997/test_repo_a/a1,0.0.1
 asa1997/test_repo_a/java-dev,0.0.1
 asa1997/test_repo_a/b1,0.0.1
 asa1997/test_repo_a/d1,0.0.1
+asa1997/test_repo_a/f1,0.0.1
+
