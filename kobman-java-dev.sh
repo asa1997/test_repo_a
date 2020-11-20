@@ -16,12 +16,12 @@ function __kobman_install_java-dev
         if [[ $choice == "y" ]]; then
             install_eclipse
         fi
-        create_sample_program >> $JAVA_ENV_ROOT/HelloWorld.
+        create_sample_program >> $JAVA_ENV_ROOT/HelloWorld.java
         mkdir -p $JAVA_ENV_ROOT/test
-        wget https://raw.githubusercontent.com/asa1997/java/master/test-kobman-java-dev.sh
+        wget -q https://raw.githubusercontent.com/$KOBMAN_NAMESPACE/kobman-env-repo/master/test-kobman-java-dev.sh
         mv $HOME/test-kobman-java-dev.sh $JAVA_ENV_ROOT/test
-        __kobman_echo_yellow "Test script and sample code available at $JAVA_ENV_ROOT"
-        __kobman_echo_green "Java has been successfully installed in your system"
+        # __kobman_echo_yellow "Test script and sample code available at $JAVA_ENV_ROOT"
+        __kobman_echo_green "Dev environment for java has been installed successfully at $JAVA_ENV_ROOT"
 
     else
         __kobman_echo_white "Java is already present in your system"
@@ -70,8 +70,8 @@ function __kobman_uninstall_java-dev
     fi
     __kobman_echo_white "Uninstalling Java "
     sudo update-alternatives --display java
-    sudo apt-get remove --auto-remove openjdk*
-    sudo update-alternatives --config java
+    sudo apt-get remove --auto-remove openjdk* -y
+    # sudo update-alternatives --config java
     [[ -d $JAVA_ENV_ROOT ]] && rm -rf $JAVA_ENV_ROOT
     __kobman_echo_white "Uninstalled Java"
 }
@@ -84,7 +84,6 @@ function uninstall_eclipse
 
 function __kobman_validate_java-dev
 {
-    echo "$JAVA_ENV_ROOT"
     if [[ ! -d $JAVA_ENV_ROOT ]]; then
         __kobman_echo_red "Could not find folder $JAVA_ENV_ROOT"
         return 1
