@@ -1,6 +1,7 @@
-asa1997/test_repo_a/a1,0.0.1
-asa1997/test_repo_a/java-dev,0.0.1
-asa1997/test_repo_a/b1,0.0.1
-asa1997/test_repo_a/d1,0.0.1
-asa1997/test_repo_a/f1,0.0.1
-
+Be-Secure/BeSman-env-repo/template-env,0.0.1
+Be-Secure/BeSman-env-repo/javaSpring-BT-env,0.0.1
+Be-Secure/BeSman-env-repo/javaSpring-RT-env,0.0.1
+Be-Secure/BeSman-env-repo/pythonDjango-BT-env,0.0.1
+Be-Secure/BeSman-env-repo/pythonDjango-RT-env,0.0.1
+Be-Secure/BeSman-env-repo/fastjson-RT-env,0.0.1
+Be-Secure/BeSman-env-repo/fastjson-BT-env,0.0.1
