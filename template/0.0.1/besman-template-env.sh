@@ -5,6 +5,8 @@ function __besman_install_template-env
     echo "Installing template-env.."
     echo "Namespace: $namespace"
     echo "template-environment template-env installed successfully."
+    __besman_update_requirements_file
+    cat $BESMAN_ANSIBLE_ROLE_PATH/requirements.yml
 }
 
 function __besman_uninstall_template-env
