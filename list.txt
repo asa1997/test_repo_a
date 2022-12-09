@@ -1,7 +1,7 @@
-Be-Secure/BeSman-env-repo/template-env,0.0.1
-Be-Secure/BeSman-env-repo/javaSpring-BT-env,0.0.1
-Be-Secure/BeSman-env-repo/javaSpring-RT-env,0.0.1
-Be-Secure/BeSman-env-repo/pythonDjango-BT-env,0.0.1
-Be-Secure/BeSman-env-repo/pythonDjango-RT-env,0.0.1
-Be-Secure/BeSman-env-repo/fastjson-RT-env,0.0.1
-Be-Secure/BeSman-env-repo/fastjson-BT-env,0.0.1
+asa1997/test_repo_a/template-env,0.0.1
+asa1997/test_repo_a/javaSpring-BT-env,0.0.1
+asa1997/test_repo_a/javaSpring-RT-env,0.0.1
+asa1997/test_repo_a/pythonDjango-BT-env,0.0.1
+asa1997/test_repo_a/pythonDjango-RT-env,0.0.1
+asa1997/test_repo_a/fastjson-RT-env,0.0.1,0.0.2
+asa1997/test_repo_a/fastjson-BT-env,0.0.1,0.0.2
