@@ -1,0 +1,10 @@
+---
+local_vars:
+  - namespace: asa1997
+  - repo: fastjson
+  - playbook: $HOME/besman-trigger-fastjson-RT-roles.yml
+  - clone_path: $HOME/fastjson
+
+env_vars:
+  - BESMAN_ANSIBLE_ROLE_PATH: $HOME/tmp
+  - BESMAN_ANSIBLE_GALAXY_ROLES: asa1997/ansible-role-oah-java,asa1997/ansible-role-oah-maven,asa1997/ansible-role-oah-eclipse,Pranshu021/ansible-role-oah-docker,Pranshu021/ansible-role-oah-sonarQube,Pranshu021/ansible-role-oah-sbomGenerator
