@@ -1,8 +1,0 @@
----
-local_vars:
-  - namespace: Be-Secure
-  - repo: fastjson
-  
-env_vars:
-  - BESMAN_ANSIBLE_ROLES: asa1997/ansible-role-oah-java, asa1997/ansible-role-oah-maven
-  - BESMAN_ANSIBLE_ROLE_PATH: $HOME/tmp
