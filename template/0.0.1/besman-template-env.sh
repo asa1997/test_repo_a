@@ -12,6 +12,8 @@ function __besman_install_template-env
 
 function __besman_uninstall_template-env
 {
+    echo "Namespace: $namespace"
+
     echo "Uninstalling template-env.."
     echo "template-environment template-env uninstalled successfully."
 
