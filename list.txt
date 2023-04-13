@@ -5,4 +5,4 @@ asa1997/test_repo_a/pythonDjango-BT-env,0.0.1
 asa1997/test_repo_a/pythonDjango-RT-env,0.0.1
 asa1997/test_repo_a/fastjson-RT-env,0.0.1,0.0.2
 asa1997/test_repo_a/fastjson-BT-env,0.0.1,0.0.2
-asa1997/test_repo_a/bes-dev-kit-dev-env,0.0.1
+asa1997/test_repo_a/BesDevKit-dev-env,0.0.1
