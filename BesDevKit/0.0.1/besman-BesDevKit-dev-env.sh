@@ -29,8 +29,10 @@ function __besman_install_python
     sudo apt update
     sudo apt install python3.8
     python3 --version
-    [[ "$?" -ne "0" ]] && echo "Python installation failed" && return 1
-
+    if [[ "$?" -ne "0" ]]; then
+        echo "Python installation failed" 
+        return 1
+    fi
 }
 
 function __besman_install_pip3
