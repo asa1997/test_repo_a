@@ -17,7 +17,10 @@ function __besman_uninstall_BesDevKit-dev-env
 
 function __besman_install_python
 {
-    [[ -z $(which python3) ]] && echo "Python : requirement satisfied" && return 0
+    if [[ -z "$(which python3)" ]]; then
+        echo "Python : requirement satisfied" 
+        return 0
+    fi
     echo "Installing python"
     sudo apt update
     sudo apt install software-properties-common
