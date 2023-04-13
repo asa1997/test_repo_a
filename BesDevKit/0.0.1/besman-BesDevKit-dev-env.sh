@@ -18,6 +18,7 @@ function __besman_uninstall_BesDevKit-dev-env
 function __besman_install_python
 {
     [[ -z $(which python3) ]] && echo "Python : requirement satisfied" && return 0
+    echo "Installing python"
     sudo apt update
     sudo apt install software-properties-common
     sudo add-apt-repository ppa:deadsnakes/ppa
@@ -31,6 +32,7 @@ function __besman_install_python
 function __besman_install_pip3
 {
     [[ -z $(which pip3) ]] && echo "Pip3: requirement satisified" && return 0
+    echo "Installing pip"
     sudo apt install python3-pip
     python3 -m pip --version
     [[ "$?" -ne "0" ]] && echo "Pip installation failed" && return 1
