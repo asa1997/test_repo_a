@@ -36,7 +36,7 @@ function __besman_install_python
 
 function __besman_install_pip3
 {
-    [[ -z $(which pip3) ]] && echo "Pip3: requirement satisified" && return 0
+    [[ -n $(which pip3) ]] && echo "Pip3: requirement satisified" && return 0
     echo "Installing pip"
     sudo apt install python3-pip
     python3 -m pip --version
