@@ -18,7 +18,7 @@ function __besman_uninstall_BesDevKit-dev-env
 function __besman_install_python
 {
     echo "Checking python availability"
-    if [[ -z "$(which python3)" ]]; then
+    if [[ -n "$(which python3)" ]]; then
         echo "Python : requirement satisfied" 
         return 0
     fi
@@ -29,7 +29,7 @@ function __besman_install_python
     sudo apt update
     sudo apt install python3.8
     python3 --version
-    if [[ "$?" -ne "0" ]]; then
+    if [[ "$?" -eq "0" ]]; then
         echo "Python installation failed" 
         return 1
     fi
