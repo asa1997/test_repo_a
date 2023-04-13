@@ -21,6 +21,11 @@ function __besman_uninstall_BesDevKit-dev-env
     echo "UnInstalled"
 } 
 
+function __besman_validate_BeSDevKit-dev-env
+{
+    echo "Validate"
+}
+
 function __besman_install_python
 {
     if [[ -n "$(which python3)" ]]; then
