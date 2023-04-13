@@ -17,7 +17,6 @@ function __besman_uninstall_BesDevKit-dev-env
 
 function __besman_install_python
 {
-    echo "Checking python availability"
     if [[ -n "$(which python3)" ]]; then
         echo "Python : requirement satisfied" 
         return 0
