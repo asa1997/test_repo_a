@@ -6,12 +6,12 @@ function __besman_install_BesDevKit-dev-env
     __besman_install_python || return 1
     __besman_install_pip3 || return 1
     # __besman_install_code || return 1
-    echo "Cloning repo"
-    if [[ ! -d $HOME/besecure-developer-toolkit ]]; then
-        git clone https://github.com/asa1997/besecure-developer-toolkit
-    else
-        echo "Directory already exist"
-    fi
+#     echo "Cloning repo"
+#     if [[ ! -d $HOME/besecure-developer-toolkit ]]; then
+#         git clone https://github.com/asa1997/besecure-developer-toolkit
+#     else
+#         echo "Directory already exist"
+#     fi
     
 
 }
